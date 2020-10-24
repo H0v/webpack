@@ -1,0 +1,50 @@
+/* @import "../assets/fonts/Lato-Light.ttf"; */
+
+@font-face {
+  font-family: "Lato";
+  src: url("../assets/fonts/Lato-Light.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  font-family: "Lato";
+}
+
+.main {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+body {
+  background: #feb32a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+}
+
+img {
+  border: 2px solid white;
+  border-radius: 10%;
+}
+
+.increment,
+.decrement {
+  height: 60px;
+  width: 100px;
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.number {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
